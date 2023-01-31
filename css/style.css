@@ -25,7 +25,7 @@ body{
 *Header Navigation
 **********************************/
 
-#headerNavContainer {
+#HeaderNavContainer {
 	width: 100%;
 	height:75px;
 	margin:auto;
@@ -34,7 +34,7 @@ body{
 	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
 }
 
-#headerNavLinks a {
+#HeaderNavLinks a {
 	height:75px;
 	display:flex;
 	justify-content:center;
@@ -47,13 +47,13 @@ body{
 	font-size:20px;
 	text-shadow:1px 1px 2px rgba(0,0,0,0.5);
     font-family: 'Ricochet';
-	transition: 1s;
+	transition: 0.3s;
 }
 
-#headerNavLinks a:hover {
-    background-color: #131313;
+#HeaderNavLinks a:hover {
+    background-color: #181818;
     border-bottom: rgb(255, 255, 255) solid 3px;
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /**********************************
@@ -63,9 +63,82 @@ body{
 .logo-image{
     position: relative;
     width: 305px;
+	transition: 0.4s;
 }
 
-.logo-image img{
+.logo-image img, a{
     display: block;
     float: left;
+}
+
+/**********************************
+*Body
+**********************************/
+#Body{
+	margin-top: 450px;
+}
+
+#BodyContainer{
+	background: rgb(12, 12, 12);
+	position:relative;
+	margin:auto;
+}
+
+#BodyContent{
+	font-size: 25px;
+}
+
+/**********************************
+*Article
+**********************************/
+
+#BodyArticle{
+	display: block;
+	text-align: center;
+	padding: 50px;
+}
+
+#BodyArticle h1{
+	text-align: center;
+	margin: -30px;
+}
+
+#BodyArticle p{
+	padding: 50px;
+}
+
+.BlogRight{
+	display: block;
+	margin: auto;
+	width: 70%;
+	padding: 20px;
+}
+
+/**********************************
+*Footer
+**********************************/
+
+#Footer{
+	background:#0f0f0f;
+	position:relative;
+	padding:15px;
+	z-index:1;
+}
+
+#FooterMedia{
+	display: flex;
+	width: 100%;
+}
+
+#FooterMedia i{
+	color: white;
+	font-size: 25px;
+	padding: 0px 10px;
+}
+
+#FooterCopyright{
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 13px;
 }
